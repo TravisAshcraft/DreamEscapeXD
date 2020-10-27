@@ -1,0 +1,1451 @@
+﻿Log file open, 10/18/20 13:22:07
+LogInit: Display: Running engine for game: DreamEscape
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.207688
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Engine.ini]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Engine.ini]
+[2020.10.18-18.22.08:079][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Engine.ini]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Engine.ini]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.18-18.22.08:079][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Engine.ini]
+[2020.10.18-18.22.08:080][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Engine.ini]
+[2020.10.18-18.22.08:084][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Scalability.ini]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Scalability.ini]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Scalability.ini]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Scalability.ini]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.18-18.22.08:084][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Scalability.ini]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Scalability.ini]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Scalability.ini]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Scalability.ini]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.18-18.22.08:085][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.18-18.22.08:085][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.18-18.22.08:085][  0]LogHAL: Display: Platform has ~ 8 GB [8438349824 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.18-18.22.08:085][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.18-18.22.08:085][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Scalability.ini]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.18-18.22.08:085][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Scalability.ini]
+[2020.10.18-18.22.08:085][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Scalability.ini]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Scalability.ini]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Scalability.ini]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.18-18.22.08:086][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Scalability.ini]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Scalability.ini]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Scalability.ini]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.18-18.22.08:087][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Config/Windows/Engine.ini]
+[2020.10.18-18.22.08:087][  0]LogInit: Computer: DESKTOP-D0V1N0U
+[2020.10.18-18.22.08:087][  0]LogInit: User: sherr
+[2020.10.18-18.22.08:087][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.10.18-18.22.08:088][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.18-18.22.08:088][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.10.18-18.22.08:088][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.18-18.22.08:088][  0]LogMemory: Process Physical Memory: 114.65 MB used, 114.65 MB peak
+[2020.10.18-18.22.08:088][  0]LogMemory: Process Virtual Memory: 98.27 MB used, 98.27 MB peak
+[2020.10.18-18.22.08:088][  0]LogMemory: Physical Memory: 6259.76 MB used,  1787.68 MB free, 8047.44 MB total
+[2020.10.18-18.22.08:088][  0]LogMemory: Virtual Memory: 5145.20 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2020.10.18-18.22.08:092][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.18-18.22.08:136][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.18-18.22.08:137][  0]LogInit: Using OS detected language (en-US).
+[2020.10.18-18.22.08:137][  0]LogInit: Using OS detected locale (en-US).
+[2020.10.18-18.22.08:140][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.10.18-18.22.08:334][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.18-18.22.08:363][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.18-18.22.08:363][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.18-18.22.08:550][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.18-18.22.08:550][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.18-18.22.08:550][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.18-18.22.08:551][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.18-18.22.08:627][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2020.10.18-18.22.08:627][  0]LogD3D11RHI:       4021/0/4023 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.10.18-18.22.08:654][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.10.18-18.22.08:654][  0]LogD3D11RHI:       128/0/4023 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.10.18-18.22.08:657][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.18-18.22.08:657][  0]LogD3D11RHI:       0/0/4023 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.18-18.22.08:657][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.18-18.22.08:664][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.18-18.22.08:664][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2020.10.18-18.22.08:664][  0]LogWindows: EnumDisplayDevices:
+[2020.10.18-18.22.08:664][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.10.18-18.22.08:664][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:1)
+[2020.10.18-18.22.08:664][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.18-18.22.08:665][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.10.18-18.22.08:665][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2020.10.18-18.22.08:665][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.10.18-18.22.08:665][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.10.18-18.22.08:665][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2020.10.18-18.22.08:707][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.10.18-18.22.08:712][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.10.18-18.22.08:712][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.18-18.22.08:712][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.10.18-18.22.08:727][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.10.18-18.22.09:071][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.18-18.22.09:105][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.18-18.22.09:105][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.18-18.22.09:105][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.18-18.22.09:105][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.18-18.22.09:105][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.18-18.22.09:105][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.18-18.22.09:105][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.18-18.22.09:105][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.18-18.22.09:105][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.18-18.22.09:105][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.18-18.22.09:129][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.18-18.22.09:129][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.18-18.22.09:138][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.10.18-18.22.09:146][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.18-18.22.09:154][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.18-18.22.09:162][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.18-18.22.09:171][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.18-18.22.09:179][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.18-18.22.09:187][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.18-18.22.09:214][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.18-18.22.09:214][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.18-18.22.09:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.18-18.22.09:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.18-18.22.09:238][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.18-18.22.09:247][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.18-18.22.09:257][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.18-18.22.09:268][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.18-18.22.09:268][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.18-18.22.09:274][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.18-18.22.09:331][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (D:/Unreal Projects/DreamEscape/DreamEscape/Intermediate/Shaders/WorkingDirectory/9036/).
+[2020.10.18-18.22.09:331][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sherr/AppData/Local/Temp/UnrealShaderWorkingDir/748FB24A44169B06C8FC468E89F349E6/'.
+[2020.10.18-18.22.09:332][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
+[2020.10.18-18.22.10:063][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.18-18.22.10:132][  0]LogDerivedDataCache: Loaded boot cache 0.07s 75MB C:/Users/sherr/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.18-18.22.10:132][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/sherr/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.18-18.22.10:132][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Projects/DreamEscape/DreamEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.18-18.22.10:132][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.18-18.22.10:132][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Projects/DreamEscape/DreamEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.18-18.22.10:132][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.18-18.22.10:142][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.18-18.22.10:142][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.18-18.22.10:142][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.18-18.22.10:144][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sherr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.18-18.22.10:144][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.18-18.22.10:144][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.18-18.22.10:193][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.18-18.22.10:194][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.18-18.22.10:224][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
+[2020.10.18-18.22.10:477][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.18-18.22.10:645][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.18-18.22.10:645][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.18-18.22.10:645][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.18-18.22.10:645][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.18-18.22.10:645][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.18-18.22.10:670][  0]LogNetVersion: DreamEscape 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3819494465)
+[2020.10.18-18.22.11:231][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001E95BB58340), frame # 0
+[2020.10.18-18.22.11:231][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E95F892AC0), frame # 0
+[2020.10.18-18.22.11:232][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E95F93DE00), frame # 0
+[2020.10.18-18.22.11:414][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.173435 seconds
+[2020.10.18-18.22.11:421][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.10.18-18.22.11:421][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.10.18-18.22.11:421][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.18-18.22.11:733][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.18-18.22.11:736][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.18-18.22.11:819][  0]SourceControl: Source control is disabled
+[2020.10.18-18.22.12:838][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.18-18.22.12:854][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.18-18.22.12:854][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.18-18.22.12:900][  0]LogOcInput: OculusInput pre-init called
+[2020.10.18-18.22.12:910][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.18-18.22.12:910][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.18-18.22.12:963][  0]LogEngine: Initializing Engine...
+[2020.10.18-18.22.12:964][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.18-18.22.12:964][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.18-18.22.12:965][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.10.18-18.22.13:104][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.18-18.22.13:112][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.18-18.22.13:112][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E9618B4600), frame # 0
+[2020.10.18-18.22.13:112][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E96186BB00), frame # 0
+[2020.10.18-18.22.13:136][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.18-18.22.13:137][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.18-18.22.13:137][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.18-18.22.13:137][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.18-18.22.13:137][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.18-18.22.13:137][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.18-18.22.13:137][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.18-18.22.13:137][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.18-18.22.13:137][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.18-18.22.13:137][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.18-18.22.13:150][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.18-18.22.13:150][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.18-18.22.13:209][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.18-18.22.13:212][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.18-18.22.13:214][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.18-18.22.13:214][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.18-18.22.13:215][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.18-18.22.13:218][  0]LogInit: FAudioDevice initialized.
+[2020.10.18-18.22.13:218][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.18-18.22.13:364][  0]LogDerivedDataCache: Saved boot cache 0.15s 75MB C:/Users/sherr/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.18-18.22.13:370][  0]LogInit: Texture streaming: Enabled
+[2020.10.18-18.22.13:385][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.18-18.22.13:385][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.18-18.22.13:404][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.18-18.22.13:458][  0]LogInit: Transaction tracking system initialized
+[2020.10.18-18.22.13:476][  0]BlueprintLog: New page: Editor Load
+[2020.10.18-18.22.13:538][  0]LocalizationService: Localization service is disabled
+[2020.10.18-18.22.13:684][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.18-18.22.13:684][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.18-18.22.13:694][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/' took 0.00s
+[2020.10.18-18.22.14:013][  0]LogUnrealEdMisc: Loading editor; pre map load, took 7.648
+[2020.10.18-18.22.14:013][  0]Cmd: MAP LOAD FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.18-18.22.14:013][  0]LightingResults: New page: Lighting Build
+[2020.10.18-18.22.14:014][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-18.22.14:014][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-18.22.14:014][  0]MapCheck: New page: Map Check
+[2020.10.18-18.22.14:014][  0]LightingResults: New page: Lighting Build
+[2020.10.18-18.22.14:022][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E9618B4600), frame # 0
+[2020.10.18-18.22.14:022][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E96186BB00), frame # 0
+[2020.10.18-18.22.14:023][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.10.18-18.22.14:371][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.18-18.22.14:371][  0]LogAIModule: Creating AISystem for world Level_1
+[2020.10.18-18.22.14:371][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E950EEEC00), frame # 0
+[2020.10.18-18.22.14:371][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E95BF44680), frame # 0
+[2020.10.18-18.22.14:381][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.10.18-18.22.14:381][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.18-18.22.14:382][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.122ms to complete.
+[2020.10.18-18.22.14:382][  0]LogFileHelpers: Loading map 'Level_1' took 0.369
+[2020.10.18-18.22.14:386][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.021
+[2020.10.18-18.22.14:541][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.18-18.22.14:550][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.18-18.22.14:560][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.18-18.22.14:567][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.18-18.22.14:581][  0]LogCollectionManager: Loaded 0 collections in 0.002422 seconds
+[2020.10.18-18.22.14:629][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Collections/' took 0.00s
+[2020.10.18-18.22.14:630][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Developers/sherr/Collections/' took 0.00s
+[2020.10.18-18.22.14:630][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Collections/' took 0.00s
+[2020.10.18-18.22.14:630][  0]LogContentBrowser: Native class hierarchy populated in 0.0168 seconds. Added 3429 classes and 823 folders.
+[2020.10.18-18.22.14:640][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.10.18-18.22.14:874][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.18-18.22.14:884][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2020.10.18-18.22.15:098][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.18-18.22.15:101][  0]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.18-18.22.15:110][  0]LogSlate: Took 0.000652 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.18-18.22.15:199][  0]LogRenderer: Reallocating scene render targets to support 972x496 Format 10 NumSamples 1 (Frame:1).
+[2020.10.18-18.22.15:379][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.10.18-18.22.15:379][  0]LogLoad: (Engine Initialization) Total time: 9.01 seconds
+[2020.10.18-18.22.15:379][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.18-18.22.15:447][  0]LogAssetRegistry: Asset discovery search completed in 5.2251 seconds
+[2020.10.18-18.22.15:453][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.10.18-18.22.15:455][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.18-18.22.15:504][  0]LogSlate: Took 0.000765 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.18-18.23.32:332][113]LogSlate: Took 0.000692 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.18-18.23.32:537][113]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Quixel/Iron Door/ub1gfbwew_8K_Albedo.jpg)
+[2020.10.18-18.23.34:295][113]LogTexture: Display: Building textures: ub1gfbwew_8K_Albedo (AutoDXT, 8192X8192)
+[2020.10.18-18.23.59:660][113]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.18-18.24.19:492][624]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Quixel/Iron Door/ub1gfbwew_8K_Displacement.jpg)
+[2020.10.18-18.24.20:675][624]LogTexture: Display: Building textures: ub1gfbwew_8K_Displacement (AutoDXT, 8192X8192)
+[2020.10.18-18.24.28:241][624]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Quixel/Iron Door/ub1gfbwew_8K_Normal.jpg)
+[2020.10.18-18.24.31:248][624]LogTexture: Display: Building textures: ub1gfbwew_8K_Normal (BC5, 8192X8192)
+[2020.10.18-18.24.39:402][624]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Quixel/Iron Door/ub1gfbwew_8K_Roughness.jpg)
+[2020.10.18-18.24.40:899][624]LogTexture: Display: Building textures: ub1gfbwew_8K_Roughness (AutoDXT, 8192X8192)
+[2020.10.18-18.25.20:571][120]LogUObjectHash: Compacting FUObjectHashTables data took  25.32ms
+[2020.10.18-18.25.21:699][120]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.18-18.25.22:489][120]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2020.10.18-18.25.33:775][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Door" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Door.uasset" SILENT=true
+[2020.10.18-18.25.33:806][706]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/DoorC804EE694F11AC4C81656ABFA3C2133E.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Door.uasset'
+[2020.10.18-18.25.34:370][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.10.18-18.25.34:400][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.10.18-18.25.34:410][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.10.18-18.25.34:559][706]SourceControl: rm 'DreamEscape/Content/Models/Broken_Concrete.uasset'
+[2020.10.18-18.25.34:704][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/2x1_Door_and_Frame_Frame" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/2x1_Door_and_Frame_Frame.uasset" SILENT=true
+[2020.10.18-18.25.34:819][706]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/2x1_Door_and_Frame_FrameD4E39D58463069E222B96F99C47E7627.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/2x1_Door_and_Frame_Frame.uasset'
+[2020.10.18-18.25.34:935][706]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.18-18.25.34:936][706]LogContentValidation: Display: Validating Material /Game/Models/Door.Door
+[2020.10.18-18.25.34:936][706]LogContentValidation: Display: Validating StaticMesh /Game/Models/2x1_Door_and_Frame_Frame.2x1_Door_and_Frame_Frame
+[2020.10.18-18.25.36:584][791]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Models/Door.Door
+[2020.10.18-18.25.36:590][791]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.25.37:720][791]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.25.37:737][791]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.25.37:773][791]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.10.18-18.25.37:931][791]LogSlate: Took 0.008264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.10.18-18.25.38:137][792]LogSlate: Took 0.009806 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.10.18-18.25.42:652][975]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.25.42:660][975]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.18-18.25.42:680][975]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.10.18-18.25.42:686][975]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.18-18.25.51:854][220]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.25.51:863][220]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.10.18-18.25.51:879][220]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.10.18-18.25.51:885][220]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.18-18.25.51:891][220]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.10.18-18.25.55:742][314]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.25.55:753][314]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.10.18-18.25.55:775][314]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.10.18-18.25.55:781][314]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.18-18.25.55:787][314]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.10.18-18.25.55:792][314]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.10.18-18.26.03:861][528]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.10.18-18.26.03:862][528]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.10.18-18.26.03:862][528]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.10.18-18.26.03:862][528]MaterialEditorStats: Texture samplers: 2/16
+[2020.10.18-18.26.10:969][838]LogSlate: Window 'Door' being destroyed
+[2020.10.18-18.26.22:586][525]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.26.27:333][768]MaterialEditorStats: Base pass shader: 117 instructions
+[2020.10.18-18.26.27:333][768]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2020.10.18-18.26.27:333][768]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.10.18-18.26.27:333][768]MaterialEditorStats: Texture samplers: 2/16
+[2020.10.18-18.26.33:709][144]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.26.33:831][145]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2020.10.18-18.26.37:776][300]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.27.01:887][650]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.27.01:894][650]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2020.10.18-18.27.08:102][930]MaterialEditorStats: Base pass shader: 117 instructions
+[2020.10.18-18.27.08:102][930]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2020.10.18-18.27.08:102][930]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.10.18-18.27.08:102][930]MaterialEditorStats: Texture samplers: 2/16
+[2020.10.18-18.27.29:107][177]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.27.29:127][177]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2020.10.18-18.27.29:133][177]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2020.10.18-18.27.35:480][459]MaterialEditorStats: Base pass shader: 117 instructions
+[2020.10.18-18.27.35:480][459]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2020.10.18-18.27.35:480][459]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.10.18-18.27.35:480][459]MaterialEditorStats: Texture samplers: 2/16
+[2020.10.18-18.27.46:016][ 83]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.27.46:030][ 83]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2020.10.18-18.27.49:356][232]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.27.49:381][232]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2020.10.18-18.27.51:644][320]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.27.51:674][320]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2020.10.18-18.28.01:414][747]MaterialEditorStats: Base pass shader: 117 instructions
+[2020.10.18-18.28.01:414][747]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2020.10.18-18.28.01:414][747]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.10.18-18.28.01:414][747]MaterialEditorStats: Texture samplers: 2/16
+[2020.10.18-18.28.03:763][884]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.28.03:775][884]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.18-18.28.08:871][147]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.28.08:871][147]LogMaterial: Warning: /Engine/Transient.Door (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.18-18.28.08:871][147]LogMaterial: Display: 	(Node TextureSample) Coercion failed: (Material.VectorExpressions[4].rgb * Material.VectorExpressions[5].rgb): float3 -> float2
+[2020.10.18-18.28.08:879][147]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.18-18.28.08:886][147]MaterialEditorStats: Error: [SM5] (Node TextureSample) Coercion failed: (Material.VectorExpressions[4].rgb * Material.VectorExpressions[5].rgb): float3 -> float2
+[2020.10.18-18.28.08:912][147]LogSlate: Took 0.007728 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.10.18-18.28.13:972][447]LogEditorTransaction: Undo Create Pin Link
+[2020.10.18-18.28.13:977][447]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.28.14:013][447]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.28.14:027][447]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.18-18.28.14:763][469]LogEditorTransaction: Undo Create Pin Link
+[2020.10.18-18.28.14:768][469]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.28.14:781][469]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.28.14:794][469]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.18-18.28.24:301][806]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.28.24:324][806]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.18-18.28.29:830][ 40]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.28.35:104][308]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.10.18-18.28.35:104][308]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.10.18-18.28.35:104][308]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.28.35:104][308]MaterialEditorStats: Texture samplers: 3/16
+[2020.10.18-18.28.35:104][308]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.10.18-18.28.35:104][308]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.28.45:167][907]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.28.45:175][907]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.10.18-18.28.52:097][215]MaterialEditorStats: Base pass shader: 126 instructions
+[2020.10.18-18.28.52:097][215]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2020.10.18-18.28.52:097][215]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.28.52:097][215]MaterialEditorStats: Texture samplers: 4/16
+[2020.10.18-18.28.52:097][215]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2020.10.18-18.28.52:097][215]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.29.11:714][383]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.29.11:722][383]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.10.18-18.29.17:916][668]MaterialEditorStats: Base pass shader: 128 instructions
+[2020.10.18-18.29.17:916][668]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 202 instructions
+[2020.10.18-18.29.17:916][668]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.29.17:916][668]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.29.17:916][668]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.29.17:916][668]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.29.32:279][527]LogMaterialEditor: Applying material Door
+[2020.10.18-18.29.35:598][527]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.29.35:666][527]LogMaterial: Display: Missing cached shader map for material Door, compiling. 
+[2020.10.18-18.29.35:696][527]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.10.18-18.29.35:707][527]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.10.18-18.29.37:785][527]TextureStreamingBuild: Display: Compiling optional shaders took 2.085 seconds.
+[2020.10.18-18.29.37:816][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.10.18-18.29.40:073][607]LogMaterialEditor: Saving and Compiling material Door
+[2020.10.18-18.29.41:639][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Door" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Door.uasset" SILENT=true
+[2020.10.18-18.29.41:659][607]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/DoorE5A824164EC9166A3218DE9A376D1485.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Door.uasset'
+[2020.10.18-18.29.41:692][607]AssetCheck: New page: Asset Save: Door
+[2020.10.18-18.29.41:692][607]LogContentValidation: Display: Validating Material /Game/Models/Door.Door
+[2020.10.18-18.29.41:692][607]MaterialEditorStats: Base pass shader: 128 instructions
+[2020.10.18-18.29.41:692][607]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 202 instructions
+[2020.10.18-18.29.41:692][607]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.29.41:692][607]MaterialEditorStats: Texture samplers: 6/16
+[2020.10.18-18.29.41:692][607]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.29.41:692][607]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.29.48:305][987]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Level_1.Level_1
+[2020.10.18-18.29.48:316][987]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.10.18-18.29.51:239][987]LogSlate: Window 'Save Content' being destroyed
+[2020.10.18-18.29.51:243][987]Cmd: MAP LOAD FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Levels/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.18-18.29.51:249][987]LightingResults: New page: Lighting Build
+[2020.10.18-18.29.51:255][987]LoadErrors: New page: Loading map: Level_1.umap
+[2020.10.18-18.29.51:259][987]LogWorld: UWorld::CleanupWorld for Level_1, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-18.29.51:261][987]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-18.29.51:263][987]MapCheck: New page: Map Check
+[2020.10.18-18.29.51:263][987]LightingResults: New page: Lighting Build
+[2020.10.18-18.29.51:308][987]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E950EEEC00), frame # 14987
+[2020.10.18-18.29.51:308][987]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E95BF44680), frame # 14987
+[2020.10.18-18.29.51:309][987]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.10.18-18.29.51:364][987]LogAIModule: Creating AISystem for world Level_1
+[2020.10.18-18.29.51:366][987]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E9618B4600), frame # 14987
+[2020.10.18-18.29.51:369][987]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E9F576A200), frame # 14987
+[2020.10.18-18.29.51:545][987]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2020.10.18-18.29.51:561][987]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.10.18-18.29.51:592][987]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.18-18.29.51:592][987]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.073ms to complete.
+[2020.10.18-18.29.51:592][987]LogFileHelpers: Loading map 'Level_1' took 0.349
+[2020.10.18-18.29.59:407][438]LogStaticMesh: Building static mesh 2x1_Door_and_Frame_Door...
+[2020.10.18-18.29.59:475][438]LogStaticMesh: Built static mesh [0.07s] /Game/Models/2x1_Door_and_Frame_Door.2x1_Door_and_Frame_Door
+[2020.10.18-18.29.59:626][443]LogActorFactory: Actor Factory created 2x1_Door_and_Frame_Door
+[2020.10.18-18.29.59:627][443]LogActorFactory: Actor Factory created 2x1_Door_and_Frame_Frame
+[2020.10.18-18.30.00:569][499]LogActorFactory: Actor Factory created 2x1_Door_and_Frame_Door
+[2020.10.18-18.30.00:658][499]LogActorFactory: Actor Factory created 2x1_Door_and_Frame_Frame
+[2020.10.18-18.30.44:980][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/ub1gfbwew_8K_Albedo" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/ub1gfbwew_8K_Albedo.uasset" SILENT=true
+[2020.10.18-18.30.51:022][971]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/ub1gfbwew_8K_AlbedoB27582DB4A544612561DB88580668055.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/ub1gfbwew_8K_Albedo.uasset'
+[2020.10.18-18.30.56:391][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/ub1gfbwew_8K_Displacement" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/ub1gfbwew_8K_Displacement.uasset" SILENT=true
+[2020.10.18-18.30.58:796][971]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/ub1gfbwew_8K_Displacement6375949C496CC2ECAA5FC98C8AA629D7.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/ub1gfbwew_8K_Displacement.uasset'
+[2020.10.18-18.31.00:779][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/ub1gfbwew_8K_Normal" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/ub1gfbwew_8K_Normal.uasset" SILENT=true
+[2020.10.18-18.31.07:893][971]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/ub1gfbwew_8K_Normal699736CF4A6B6433FF51E3BEFF9F5E21.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/ub1gfbwew_8K_Normal.uasset'
+[2020.10.18-18.31.15:326][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/ub1gfbwew_8K_Roughness" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/ub1gfbwew_8K_Roughness.uasset" SILENT=true
+[2020.10.18-18.31.19:330][971]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/ub1gfbwew_8K_Roughness529477EC4BD3ED4ECA17AD993401E416.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/ub1gfbwew_8K_Roughness.uasset'
+[2020.10.18-18.31.24:699][971]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.10.18-18.31.24:712][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.10.18-18.31.24:721][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.10.18-18.31.24:728][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.10.18-18.31.24:745][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.10.18-18.31.24:754][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.10.18-18.31.24:883][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Door" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Door.uasset" SILENT=true
+[2020.10.18-18.31.24:921][971]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Door2B5F3BCE40CAF70F5D0136B1B8D0FC5B.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Door.uasset'
+[2020.10.18-18.31.24:952][971]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.18-18.31.24:952][971]LogContentValidation: Display: Validating Texture2D /Game/Models/Materials/ub1gfbwew_8K_Albedo.ub1gfbwew_8K_Albedo
+[2020.10.18-18.31.24:953][971]LogContentValidation: Display: Validating Texture2D /Game/Models/Materials/ub1gfbwew_8K_Displacement.ub1gfbwew_8K_Displacement
+[2020.10.18-18.31.24:953][971]LogContentValidation: Display: Validating Texture2D /Game/Models/Materials/ub1gfbwew_8K_Normal.ub1gfbwew_8K_Normal
+[2020.10.18-18.31.24:953][971]LogContentValidation: Display: Validating Texture2D /Game/Models/Materials/ub1gfbwew_8K_Roughness.ub1gfbwew_8K_Roughness
+[2020.10.18-18.31.24:953][971]LogContentValidation: Display: Validating Material /Game/Models/Door.Door
+[2020.10.18-18.32.01:001][475]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Quixel/Old Stone Wall/uiukdhylw_8K_Albedo.jpg)
+[2020.10.18-18.32.03:022][475]LogTexture: Display: Building textures: uiukdhylw_8K_Albedo (AutoDXT, 8192X8192)
+[2020.10.18-18.32.27:475][475]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Quixel/Old Stone Wall/uiukdhylw_8K_AO.jpg)
+[2020.10.18-18.32.28:976][475]LogTexture: Display: Building textures: uiukdhylw_8K_AO (AutoDXT, 8192X8192)
+[2020.10.18-18.32.44:767][475]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Quixel/Old Stone Wall/uiukdhylw_8K_Displacement.jpg)
+[2020.10.18-18.32.45:772][475]LogTexture: Display: Building textures: uiukdhylw_8K_Displacement (AutoDXT, 8192X8192)
+[2020.10.18-18.32.52:932][475]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Quixel/Old Stone Wall/uiukdhylw_8K_Normal.jpg)
+[2020.10.18-18.32.55:576][475]LogTexture: Display: Building textures: uiukdhylw_8K_Normal (BC5, 8192X8192)
+[2020.10.18-18.33.03:439][475]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Quixel/Old Stone Wall/uiukdhylw_8K_Roughness.jpg)
+[2020.10.18-18.33.04:887][475]LogTexture: Display: Building textures: uiukdhylw_8K_Roughness (AutoDXT, 8192X8192)
+[2020.10.18-18.33.20:537][757]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.18-18.33.37:149][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/Door" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Door.uasset" SILENT=true
+[2020.10.18-18.33.37:186][544]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Door3D939DB94086BE16D33E2A9FE85AD8CD.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Door.uasset'
+[2020.10.18-18.33.37:396][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/Brass" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Brass.uasset" SILENT=true
+[2020.10.18-18.33.37:417][544]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/BrassD4D6201A4AD1AA08A27AF8A4EEB60403.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Brass.uasset'
+[2020.10.18-18.33.38:150][544]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2020.10.18-18.33.38:185][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.10.18-18.33.38:205][544]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.10.18-18.33.38:216][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2020.10.18-18.33.38:391][544]SourceControl: rm 'DreamEscape/Content/Models/Brass.uasset'
+[2020.10.18-18.33.38:391][544]SourceControl: rm 'DreamEscape/Content/Models/Door.uasset'
+[2020.10.18-18.33.38:540][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/2x1_Door_and_Frame_Frame" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/2x1_Door_and_Frame_Frame.uasset" SILENT=true
+[2020.10.18-18.33.38:624][544]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/2x1_Door_and_Frame_Frame2A98FFE84E5DA0973ADE3B8F34D2CAE1.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/2x1_Door_and_Frame_Frame.uasset'
+[2020.10.18-18.33.38:670][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/2x1_Door_and_Frame_Door" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/2x1_Door_and_Frame_Door.uasset" SILENT=true
+[2020.10.18-18.33.38:703][544]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/2x1_Door_and_Frame_Door8E5F332741169E48A8F1FFBDF52712A8.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/2x1_Door_and_Frame_Door.uasset'
+[2020.10.18-18.33.38:861][544]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.18-18.33.38:861][544]LogContentValidation: Display: Validating Material /Game/Models/Materials/Door.Door
+[2020.10.18-18.33.38:861][544]LogContentValidation: Display: Validating Material /Game/Models/Materials/Brass.Brass
+[2020.10.18-18.33.38:861][544]LogContentValidation: Display: Validating StaticMesh /Game/Models/2x1_Door_and_Frame_Frame.2x1_Door_and_Frame_Frame
+[2020.10.18-18.33.38:873][544]LogContentValidation: Display: Validating StaticMesh /Game/Models/2x1_Door_and_Frame_Door.2x1_Door_and_Frame_Door
+[2020.10.18-18.33.59:236][399]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/uiukdhylw_8K_Roughness6963FF1642CCB70F194BD097A827EBE5.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Textures/uiukdhylw_8K_Roughness.uasset'
+[2020.10.18-18.34.03:506][399]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/ub1gfbwew_8K_AlbedoAF24960C4F6DB7D57C5291A6A34E9670.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Textures/ub1gfbwew_8K_Albedo.uasset'
+[2020.10.18-18.34.09:261][399]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/ub1gfbwew_8K_Displacement6D1EA2224D76B96C06903E97F7F1185D.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Textures/ub1gfbwew_8K_Displacement.uasset'
+[2020.10.18-18.34.12:971][399]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/ub1gfbwew_8K_Normal3F00F6C6457C17FE54E380A3E2945E31.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Textures/ub1gfbwew_8K_Normal.uasset'
+[2020.10.18-18.34.21:637][399]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/ub1gfbwew_8K_RoughnessAB3E7F654B129B7C36A5CA95BD40B8C7.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Textures/ub1gfbwew_8K_Roughness.uasset'
+[2020.10.18-18.34.31:304][399]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/uiukdhylw_8K_AlbedoF44D61A7444B900C5B9E4EB13DB3A91D.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Textures/uiukdhylw_8K_Albedo.uasset'
+[2020.10.18-18.34.38:081][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/Textures/uiukdhylw_8K_AO" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Textures/uiukdhylw_8K_AO.uasset" SILENT=true
+[2020.10.18-18.34.42:062][399]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/uiukdhylw_8K_AO0CF6CF054F3F9D220310C59AB53386B0.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Textures/uiukdhylw_8K_AO.uasset'
+[2020.10.18-18.34.49:036][399]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/uiukdhylw_8K_Displacement9683A781495DA2AE0DAA90918E0BADFB.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Textures/uiukdhylw_8K_Displacement.uasset'
+[2020.10.18-18.34.58:237][399]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/uiukdhylw_8K_Normal3167C14A4379835ADCEBB5A62721BD26.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Textures/uiukdhylw_8K_Normal.uasset'
+[2020.10.18-18.35.08:351][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.10.18-18.35.08:364][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2020.10.18-18.35.08:373][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2020.10.18-18.35.08:382][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2020.10.18-18.35.08:396][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2020.10.18-18.35.08:404][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.10.18-18.35.08:413][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.10.18-18.35.08:422][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.10.18-18.35.08:431][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2020.10.18-18.35.08:447][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.10.18-18.35.08:457][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.10.18-18.35.09:207][399]SourceControl: rm 'DreamEscape/Content/Models/Materials/ub1gfbwew_8K_Albedo.uasset'
+[2020.10.18-18.35.09:207][399]SourceControl: rm 'DreamEscape/Content/Models/Materials/ub1gfbwew_8K_Displacement.uasset'
+[2020.10.18-18.35.09:207][399]SourceControl: rm 'DreamEscape/Content/Models/Materials/ub1gfbwew_8K_Normal.uasset'
+[2020.10.18-18.35.09:207][399]SourceControl: rm 'DreamEscape/Content/Models/Materials/ub1gfbwew_8K_Roughness.uasset'
+[2020.10.18-18.35.09:341][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/Door" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Door.uasset" SILENT=true
+[2020.10.18-18.35.09:360][399]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Door676720C342ED5E86962B08A1F9A55D85.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Door.uasset'
+[2020.10.18-18.35.09:413][399]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.18-18.35.09:413][399]LogContentValidation: Display: Validating Texture2D /Game/Models/Materials/Textures/uiukdhylw_8K_Roughness.uiukdhylw_8K_Roughness
+[2020.10.18-18.35.09:413][399]LogContentValidation: Display: Validating Texture2D /Game/Models/Materials/Textures/ub1gfbwew_8K_Albedo.ub1gfbwew_8K_Albedo
+[2020.10.18-18.35.09:413][399]LogContentValidation: Display: Validating Texture2D /Game/Models/Materials/Textures/ub1gfbwew_8K_Displacement.ub1gfbwew_8K_Displacement
+[2020.10.18-18.35.09:413][399]LogContentValidation: Display: Validating Texture2D /Game/Models/Materials/Textures/ub1gfbwew_8K_Normal.ub1gfbwew_8K_Normal
+[2020.10.18-18.35.09:414][399]LogContentValidation: Display: Validating Texture2D /Game/Models/Materials/Textures/ub1gfbwew_8K_Roughness.ub1gfbwew_8K_Roughness
+[2020.10.18-18.35.09:414][399]LogContentValidation: Display: Validating Texture2D /Game/Models/Materials/Textures/uiukdhylw_8K_Albedo.uiukdhylw_8K_Albedo
+[2020.10.18-18.35.09:414][399]LogContentValidation: Display: Validating Texture2D /Game/Models/Materials/Textures/uiukdhylw_8K_AO.uiukdhylw_8K_AO
+[2020.10.18-18.35.09:414][399]LogContentValidation: Display: Validating Texture2D /Game/Models/Materials/Textures/uiukdhylw_8K_Displacement.uiukdhylw_8K_Displacement
+[2020.10.18-18.35.09:414][399]LogContentValidation: Display: Validating Texture2D /Game/Models/Materials/Textures/uiukdhylw_8K_Normal.uiukdhylw_8K_Normal
+[2020.10.18-18.35.09:414][399]LogContentValidation: Display: Validating Material /Game/Models/Materials/Door.Door
+[2020.10.18-18.35.25:545][ 26]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Models/Materials/Wall_Stone.Wall_Stone
+[2020.10.18-18.35.25:569][ 26]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.35.25:880][ 26]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.35.25:893][ 26]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.35.28:549][140]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-18.35.28:552][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-18.35.31:276][237]MaterialEditorStats: Base pass shader: 117 instructions
+[2020.10.18-18.35.31:276][237]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2020.10.18-18.35.31:276][237]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.10.18-18.35.31:277][237]MaterialEditorStats: Texture samplers: 2/16
+[2020.10.18-18.35.54:097][524]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.35.54:105][524]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.18-18.35.54:127][524]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.18-18.35.54:149][524]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.35.54:159][524]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.10.18-18.35.54:175][524]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.18-18.35.54:182][524]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.10.18-18.36.02:384][812]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.36.02:402][812]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.10.18-18.36.02:424][812]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.18-18.36.02:431][812]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.10.18-18.36.02:439][812]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.10.18-18.36.14:592][276]MaterialEditorStats: Base pass shader: 117 instructions
+[2020.10.18-18.36.14:592][276]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2020.10.18-18.36.14:592][276]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.10.18-18.36.14:592][276]MaterialEditorStats: Texture samplers: 2/16
+[2020.10.18-18.36.16:933][411]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.36.16:955][411]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.10.18-18.36.21:116][594]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.36.21:140][594]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.18-18.36.24:032][691]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.36.24:059][691]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.10.18-18.36.34:345][143]MaterialEditorStats: Base pass shader: 128 instructions
+[2020.10.18-18.36.34:345][143]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 202 instructions
+[2020.10.18-18.36.34:345][143]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.36.34:345][143]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.36.34:345][143]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.36.34:345][143]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.37.56:526][694]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.38.00:009][893]MaterialEditorStats: Base pass shader: 128 instructions
+[2020.10.18-18.38.00:009][893]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 202 instructions
+[2020.10.18-18.38.00:009][893]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.38.00:009][893]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.38.00:009][893]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.38.00:009][893]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.38.06:998][309]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.38.10:755][525]MaterialEditorStats: Base pass shader: 128 instructions
+[2020.10.18-18.38.10:755][525]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 202 instructions
+[2020.10.18-18.38.10:755][525]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.38.10:755][525]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.38.10:755][525]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.38.10:755][525]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.38.30:891][716]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.38.34:009][885]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.38.36:329][ 11]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.38.40:064][214]MaterialEditorStats: Base pass shader: 128 instructions
+[2020.10.18-18.38.40:064][214]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 202 instructions
+[2020.10.18-18.38.40:064][214]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.38.40:064][214]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.38.40:064][214]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.38.40:064][214]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.38.49:443][770]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.38.54:794][ 71]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.38.58:515][280]MaterialEditorStats: Base pass shader: 128 instructions
+[2020.10.18-18.38.58:515][280]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 202 instructions
+[2020.10.18-18.38.58:515][280]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.38.58:515][280]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.38.58:515][280]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.38.58:515][280]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.39.06:455][584]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.39.07:815][660]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.39.12:657][905]MaterialEditorStats: Base pass shader: 128 instructions
+[2020.10.18-18.39.12:657][905]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 202 instructions
+[2020.10.18-18.39.12:657][905]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.39.12:657][905]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.39.12:657][905]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.39.12:657][905]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.39.35:313][877]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.39.35:323][877]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.10.18-18.39.39:292][ 68]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.39.39:292][ 68]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.39.39:292][ 68]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.39.39:292][ 68]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.39.39:292][ 68]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.39.39:292][ 68]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.39.41:351][189]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.39.41:368][189]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.18-18.39.45:352][394]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.39.45:365][394]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.10.18-18.39.49:253][608]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.39.49:253][608]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.39.49:253][608]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.39.49:253][608]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.39.49:253][608]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.39.49:253][608]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.40.05:790][587]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.40.09:310][784]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.40.09:310][784]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.40.09:310][784]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.40.09:310][784]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.40.09:310][784]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.40.09:310][784]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.40.10:473][853]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.40.10:482][853]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.40.13:531][ 18]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.40.13:531][ 18]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.40.13:532][ 18]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.40.13:532][ 18]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.40.13:532][ 18]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.40.13:532][ 18]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.40.15:021][107]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.40.15:031][107]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.40.18:059][279]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.40.18:059][279]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.40.18:059][279]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.40.18:059][279]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.40.18:059][279]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.40.18:059][279]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.40.30:003][992]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.40.30:009][992]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.40.33:118][137]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.40.33:138][137]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.40.40:139][476]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.40.40:139][476]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.40.40:139][476]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.40.40:139][476]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.40.40:139][476]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.40.40:139][476]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.40.52:537][217]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.40.52:547][217]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.40.55:606][378]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.40.55:622][378]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.40.57:021][433]LogMaterialEditor: Applying material Wall_Stone
+[2020.10.18-18.40.58:136][433]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.40.58:252][433]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.40.58:344][433]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2020.10.18-18.40.58:369][433]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.10.18-18.41.00:954][433]TextureStreamingBuild: Display: Compiling optional shaders took 2.594 seconds.
+[2020.10.18-18.41.00:983][433]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2020.10.18-18.41.03:572][568]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.41.03:572][568]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.41.03:572][568]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.41.03:572][568]MaterialEditorStats: Texture samplers: 6/16
+[2020.10.18-18.41.03:573][568]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.41.03:573][568]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.41.05:796][701]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.41.05:810][701]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.10.18-18.41.06:743][754]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.41.06:764][754]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.18-18.41.13:648][ 99]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.41.13:648][ 99]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.41.13:648][ 99]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.41.13:648][ 99]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.41.13:648][ 99]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.41.13:648][ 99]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.41.24:386][743]LogEditorTransaction: Undo Align Right
+[2020.10.18-18.41.24:397][743]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.41.28:198][935]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.41.28:198][935]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.41.28:198][935]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.41.28:198][935]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.41.28:198][935]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.41.28:199][935]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.41.40:226][652]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'"MaterialGraphNode_3.MaterialExpressionScalarParameter_0"')'
+[2020.10.18-18.41.40:226][652]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'"MaterialGraphNode_4.MaterialExpressionScalarParameter_1"')'
+[2020.10.18-18.41.40:227][652]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_6.MaterialExpressionTextureCoordinate_0"')'
+[2020.10.18-18.41.40:227][652]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAppendVector'"MaterialGraphNode_5.MaterialExpressionAppendVector_0"')'
+[2020.10.18-18.41.40:236][652]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.41.47:734][ 72]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.41.47:734][ 72]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.41.47:734][ 72]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.41.47:734][ 72]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.41.47:734][ 72]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.41.47:734][ 72]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.41.48:733][132]LogEditorTransaction: Undo Move Nodes
+[2020.10.18-18.41.48:741][132]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.41.52:003][281]LogEditorTransaction: Undo Move Node
+[2020.10.18-18.41.52:024][281]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.41.52:594][292]LogEditorTransaction: Undo Material Editor: Paste
+[2020.10.18-18.41.52:601][292]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.41.52:612][292]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.41.57:405][509]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.41.57:406][509]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.41.57:406][509]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.41.57:406][509]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.41.57:406][509]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.41.57:406][509]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.42.16:332][635]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'"MaterialGraphNode_3.MaterialExpressionScalarParameter_0"')'
+[2020.10.18-18.42.16:333][635]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'"MaterialGraphNode_4.MaterialExpressionScalarParameter_1"')'
+[2020.10.18-18.42.16:333][635]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_6.MaterialExpressionTextureCoordinate_0"')'
+[2020.10.18-18.42.16:333][635]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAppendVector'"MaterialGraphNode_5.MaterialExpressionAppendVector_0"')'
+[2020.10.18-18.42.16:341][635]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.42.19:784][826]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.42.19:784][826]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.42.19:784][826]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.42.19:784][826]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.42.19:784][826]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.42.19:784][826]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.42.22:472][985]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.42.22:483][985]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.18-18.42.26:462][194]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.42.26:462][194]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.42.26:462][194]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.42.26:462][194]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.42.26:462][194]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.42.26:462][194]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.42.26:620][203]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'"MaterialGraphNode_3.MaterialExpressionScalarParameter_0"')'
+[2020.10.18-18.42.26:620][203]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'"MaterialGraphNode_4.MaterialExpressionScalarParameter_1"')'
+[2020.10.18-18.42.26:620][203]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_6.MaterialExpressionTextureCoordinate_0"')'
+[2020.10.18-18.42.26:620][203]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAppendVector'"MaterialGraphNode_5.MaterialExpressionAppendVector_0"')'
+[2020.10.18-18.42.26:627][203]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.42.29:845][378]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.42.29:845][378]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.42.29:845][378]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.42.29:845][378]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.42.29:845][378]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.42.29:845][378]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.42.32:543][539]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.42.32:552][539]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.10.18-18.42.36:408][732]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.42.36:408][732]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.42.36:408][732]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.42.36:408][732]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.42.36:408][732]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.42.36:408][732]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.42.42:823][114]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.42.42:835][114]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.42.46:231][295]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.42.46:231][295]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.42.46:231][295]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.42.46:231][295]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.42.46:231][295]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.42.46:231][295]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.42.46:785][328]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.42.46:793][328]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.42.49:542][473]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.42.49:542][473]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.42.49:542][473]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.42.49:542][473]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.42.49:542][473]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.42.49:542][473]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.43.04:895][392]LogEditorTransaction: Undo Edit Default Value
+[2020.10.18-18.43.04:899][392]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.43.04:911][392]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.43.05:445][405]LogEditorTransaction: Undo Edit Default Value
+[2020.10.18-18.43.05:448][405]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.43.05:461][405]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.43.05:684][414]LogEditorTransaction: Undo Create Pin Link
+[2020.10.18-18.43.05:693][414]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.43.05:709][414]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.43.05:723][414]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.10.18-18.43.06:004][425]LogEditorTransaction: Undo Move Nodes
+[2020.10.18-18.43.06:008][425]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.43.06:589][443]LogEditorTransaction: Undo Material Editor: Paste
+[2020.10.18-18.43.06:596][443]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.43.06:609][443]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.43.07:066][459]LogEditorTransaction: Undo Create Pin Link
+[2020.10.18-18.43.07:069][459]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.43.07:090][459]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.43.07:110][459]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.18-18.43.07:578][477]LogEditorTransaction: Undo Move Nodes
+[2020.10.18-18.43.07:584][477]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.43.08:134][496]LogEditorTransaction: Undo Material Editor: Paste
+[2020.10.18-18.43.08:142][496]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.43.08:155][496]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.43.25:733][290]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.43.25:740][290]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.43.25:755][290]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.18-18.43.29:485][478]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.43.29:486][478]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.43.29:486][478]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.43.29:486][478]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.43.29:486][478]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.43.29:486][478]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.43.37:412][953]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.43.37:420][953]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.43.40:894][151]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.43.40:894][151]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.43.40:894][151]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.43.40:894][151]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.43.40:894][151]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.43.40:894][151]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.43.47:793][564]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.43.47:800][564]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.43.51:143][753]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.43.51:143][753]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.43.51:143][753]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.43.51:143][753]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.43.51:143][753]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.43.51:143][753]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.44.06:005][638]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.44.06:020][638]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.18-18.44.10:192][839]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.44.10:192][839]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.44.10:192][839]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.44.10:192][839]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.44.10:192][839]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.44.10:192][839]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.44.10:209][840]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.44.14:075][ 51]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.44.17:023][213]MaterialEditorStats: Base pass shader: 127 instructions
+[2020.10.18-18.44.17:023][213]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 201 instructions
+[2020.10.18-18.44.17:023][213]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.44.17:023][213]MaterialEditorStats: Texture samplers: 4/16
+[2020.10.18-18.44.17:023][213]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2020.10.18-18.44.17:023][213]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.44.18:732][313]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.44.18:744][313]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.18-18.44.23:544][551]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.44.23:551][551]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.44.26:599][721]MaterialEditorStats: Base pass shader: 127 instructions
+[2020.10.18-18.44.26:599][721]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 201 instructions
+[2020.10.18-18.44.26:599][721]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.44.26:599][721]MaterialEditorStats: Texture samplers: 4/16
+[2020.10.18-18.44.26:599][721]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2020.10.18-18.44.26:599][721]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.44.33:818][151]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.44.37:458][355]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.44.37:458][355]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.44.37:458][355]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.44.37:458][355]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.44.37:458][355]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.44.37:458][355]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.44.45:342][826]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.44.45:348][826]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.44.48:798][ 20]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.44.48:798][ 20]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.44.48:798][ 20]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.44.48:798][ 20]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.44.48:798][ 20]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.44.48:798][ 20]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.44.53:916][326]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.44.53:924][326]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.44.57:408][523]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.44.57:408][523]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.44.57:408][523]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.44.57:408][523]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.44.57:408][523]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.44.57:408][523]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.44.59:561][652]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.44.59:568][652]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.45.03:190][859]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.45.03:190][859]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.45.03:190][859]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.45.03:190][859]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.45.03:190][859]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.45.03:190][859]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.45.15:704][608]LogMaterialEditor: Applying material Wall_Stone
+[2020.10.18-18.45.16:167][608]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.45.16:231][608]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.45.16:256][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.10.18-18.45.16:269][608]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.10.18-18.45.17:913][608]TextureStreamingBuild: Display: Compiling optional shaders took 1.650 seconds.
+[2020.10.18-18.45.17:943][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.10.18-18.45.18:787][637]LogMaterialEditor: Saving and Compiling material Wall_Stone
+[2020.10.18-18.45.20:273][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/Wall_Stone" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Wall_Stone.uasset" SILENT=true
+[2020.10.18-18.45.20:293][637]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Wall_StoneB0E80B574B8339E51BB2FF9D332FEF43.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Wall_Stone.uasset'
+[2020.10.18-18.45.20:477][637]AssetCheck: New page: Asset Save: Wall_Stone
+[2020.10.18-18.45.20:477][637]LogContentValidation: Display: Validating Material /Game/Models/Materials/Wall_Stone.Wall_Stone
+[2020.10.18-18.45.20:480][637]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.45.20:480][637]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.45.20:480][637]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.45.20:480][637]MaterialEditorStats: Texture samplers: 6/16
+[2020.10.18-18.45.20:480][637]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.45.20:480][637]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.45.41:973][850]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Models/Materials/Wall_Stone_Inst.Wall_Stone_Inst
+[2020.10.18-18.45.42:203][850]LogRenderer: Reallocating scene render targets to support 1068x744 Format 10 NumSamples 1 (Frame:1).
+[2020.10.18-18.45.58:851][809]LogRenderer: Reallocating scene render targets to support 1336x960 Format 10 NumSamples 1 (Frame:14).
+[2020.10.18-18.47.22:393][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/Wall_Stone_Inst" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Wall_Stone_Inst.uasset" SILENT=true
+[2020.10.18-18.47.22:404][401]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.10.18-18.47.22:410][401]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.10.18-18.47.22:419][401]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2020.10.18-18.47.22:432][401]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Wall_Stone_Inst00ABC43745D57AB2242147ADE460CD04.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Wall_Stone_Inst.uasset'
+[2020.10.18-18.47.22:579][401]AssetCheck: New page: Asset Save: Wall_Stone_Inst
+[2020.10.18-18.47.22:579][401]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Models/Materials/Wall_Stone_Inst.Wall_Stone_Inst
+[2020.10.18-18.47.24:344][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.18-18.47.24:360][489]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2020.10.18-18.47.24:420][489]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Level_1F579AB11423B1A960BA6048FBA1ABB0D.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Levels/Level_1.umap'
+[2020.10.18-18.47.24:522][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1_BuiltData" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Levels/Level_1_BuiltData.uasset" SILENT=true
+[2020.10.18-18.47.24:572][489]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Level_1_BuiltData7D0EB782490FBF85F9B6E093FAA12058.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Levels/Level_1_BuiltData.uasset'
+[2020.10.18-18.47.24:584][489]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.18-18.47.24:584][489]LogContentValidation: Display: Validating World /Game/Levels/Level_1.Level_1
+[2020.10.18-18.47.24:584][489]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level_1_BuiltData.Level_1_BuiltData
+[2020.10.18-18.47.27:075][633]LogSlate: Window 'Wall_Stone_Inst' being destroyed
+[2020.10.18-18.47.27:080][633]LogSlate: Window 'Wall_Stone_Inst' being destroyed
+[2020.10.18-18.47.27:141][633]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-18.47.27:141][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-18.48.27:843][366]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (2x1_Door_and_Frame_Frame)
+[2020.10.18-18.48.34:538][756]Cmd: TRANSACTION UNDO
+[2020.10.18-18.48.34:538][756]LogEditorTransaction: Undo Move Actors
+[2020.10.18-18.48.34:548][756]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.48.35:664][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (2x1_Door_and_Frame_Door)
+[2020.10.18-18.48.36:818][837]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (2x1_Door_and_Frame_Frame)
+[2020.10.18-18.48.39:396][941]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.48.39:397][941]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.48.39:397][941]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.48.39:397][941]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.48.39:397][941]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.48.39:397][941]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.48.40:883][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.18-18.49.02:621][246]LogActorFactory: Actor Factory created 2x1_Door_and_Frame_Door
+[2020.10.18-18.49.02:624][246]LogActorFactory: Actor Factory created 2x1_Door_and_Frame_Frame
+[2020.10.18-18.49.04:751][372]LogActorFactory: Actor Factory created 2x1_Door_and_Frame_Door
+[2020.10.18-18.49.04:766][372]LogActorFactory: Actor Factory created 2x1_Door_and_Frame_Frame
+[2020.10.18-18.49.14:849][958]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (2x1_Door_and_Frame_Frame)
+[2020.10.18-18.49.17:452][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (2x1_Door_and_Frame_Frame)
+[2020.10.18-18.49.18:293][161]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.18-18.49.19:512][219]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (2x1_Door_and_Frame_Frame2)
+[2020.10.18-18.49.21:170][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (2x1_Door_and_Frame_Frame)
+[2020.10.18-18.49.22:632][398]Cmd: DELETE
+[2020.10.18-18.49.22:633][398]Cmd: ACTOR DELETE
+[2020.10.18-18.49.22:672][398]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.18-18.49.22:681][398]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.10.18-18.49.22:686][398]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2020.10.18-18.49.23:398][441]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (2x1_Door_and_Frame_Door)
+[2020.10.18-18.49.24:388][498]Cmd: DELETE
+[2020.10.18-18.49.24:389][498]Cmd: ACTOR DELETE
+[2020.10.18-18.49.24:391][498]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.18-18.49.24:400][498]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.10.18-18.49.24:405][498]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2020.10.18-18.49.40:539][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (2x1_Door_and_Frame_Frame2)
+[2020.10.18-18.49.46:757][779]Cmd: TRANSACTION UNDO
+[2020.10.18-18.49.46:757][779]LogEditorTransaction: Undo Move Actors
+[2020.10.18-18.49.46:762][779]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.49.47:211][789]Cmd: TRANSACTION UNDO
+[2020.10.18-18.49.47:211][789]LogEditorTransaction: Undo Clicking on Actors
+[2020.10.18-18.49.47:215][789]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.49.47:638][803]Cmd: TRANSACTION UNDO
+[2020.10.18-18.49.47:638][803]LogEditorTransaction: Undo Create Actors
+[2020.10.18-18.49.47:678][803]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.49.48:943][851]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (2x1_Door_and_Frame_Door2)
+[2020.10.18-18.49.50:100][884]Cmd: DELETE
+[2020.10.18-18.49.50:101][884]Cmd: ACTOR DELETE
+[2020.10.18-18.49.50:106][884]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.18-18.49.50:123][884]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2020.10.18-18.49.50:139][884]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2020.10.18-18.49.51:363][936]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (2x1_Door_and_Frame_Frame2)
+[2020.10.18-18.49.52:036][956]Cmd: DELETE
+[2020.10.18-18.49.52:036][956]Cmd: ACTOR DELETE
+[2020.10.18-18.49.52:042][956]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.18-18.49.52:061][956]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2020.10.18-18.49.52:070][956]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2020.10.18-18.49.58:656][185]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.49.58:656][185]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.49.58:656][185]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.49.58:656][185]MaterialEditorStats: Texture samplers: 5/16
+[2020.10.18-18.49.58:656][185]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.49.58:656][185]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.49.58:957][200]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Models/2x1_Door_and_Frame_Frame.2x1_Door_and_Frame_Frame
+[2020.10.18-18.49.59:448][200]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-18.49.59:448][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-18.50.05:785][523]LogStaticMesh: Building static mesh 2x1_Door_and_Frame_Frame...
+[2020.10.18-18.50.05:843][523]LogStaticMesh: Built static mesh [0.06s] /Game/Models/2x1_Door_and_Frame_Frame.2x1_Door_and_Frame_Frame
+[2020.10.18-18.50.09:982][747]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/2x1_Door_and_Frame_Frame" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/2x1_Door_and_Frame_Frame.uasset" SILENT=true
+[2020.10.18-18.50.10:012][747]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/2x1_Door_and_Frame_Frame69E2E54541A16A469DDC0AB592283A29.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/2x1_Door_and_Frame_Frame.uasset'
+[2020.10.18-18.50.10:021][747]AssetCheck: New page: Asset Save: 2x1_Door_and_Frame_Frame
+[2020.10.18-18.50.10:021][747]LogContentValidation: Display: Validating StaticMesh /Game/Models/2x1_Door_and_Frame_Frame.2x1_Door_and_Frame_Frame
+[2020.10.18-18.50.13:302][943]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-18.50.13:303][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-18.50.19:179][ 96]LogSlate: Window 'Message' being destroyed
+[2020.10.18-18.50.19:187][ 96]Message dialog closed, result: Cancel, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Models/Materials/Wall_Stone.Wall_Stone
+(Selecting 'No' will cause all changes to be lost!)
+[2020.10.18-18.50.20:472][170]LogMaterialEditor: Applying material Wall_Stone
+[2020.10.18-18.50.20:964][170]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.50.21:030][170]LogMaterial: Display: Missing cached shader map for material Wall_Stone, compiling. 
+[2020.10.18-18.50.21:062][170]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2020.10.18-18.50.21:074][170]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.10.18-18.50.24:391][170]TextureStreamingBuild: Display: Compiling optional shaders took 3.322 seconds.
+[2020.10.18-18.50.24:413][170]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2020.10.18-18.50.25:320][198]LogMaterialEditor: Saving and Compiling material Wall_Stone
+[2020.10.18-18.50.26:237][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/Wall_Stone" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Wall_Stone.uasset" SILENT=true
+[2020.10.18-18.50.26:257][198]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Wall_StoneA8F23B1F4D8934C457A063978DEBD787.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Wall_Stone.uasset'
+[2020.10.18-18.50.26:303][198]AssetCheck: New page: Asset Save: Wall_Stone
+[2020.10.18-18.50.26:303][198]LogContentValidation: Display: Validating Material /Game/Models/Materials/Wall_Stone.Wall_Stone
+[2020.10.18-18.50.26:307][198]MaterialEditorStats: Base pass shader: 129 instructions
+[2020.10.18-18.50.26:307][198]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2020.10.18-18.50.26:307][198]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.18-18.50.26:307][198]MaterialEditorStats: Texture samplers: 6/16
+[2020.10.18-18.50.26:307][198]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.10.18-18.50.26:307][198]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.18-18.50.31:238][484]LogMaterialEditor: Saving and Compiling material Wall_Stone
+[2020.10.18-18.50.31:366][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/Wall_Stone" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Wall_Stone.uasset" SILENT=true
+[2020.10.18-18.50.31:385][484]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Wall_Stone6618718241542F3F5BC908AF78EB2B76.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/Materials/Wall_Stone.uasset'
+[2020.10.18-18.50.31:395][484]AssetCheck: New page: Asset Save: Wall_Stone
+[2020.10.18-18.50.31:395][484]LogContentValidation: Display: Validating Material /Game/Models/Materials/Wall_Stone.Wall_Stone
+[2020.10.18-18.50.32:604][552]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-18.50.32:604][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-18.50.35:299][687]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Models/2x1_Door_and_Frame_Door.2x1_Door_and_Frame_Door
+[2020.10.18-18.50.35:557][687]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-18.50.35:557][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-18.50.47:379][256]LogStaticMesh: Building static mesh 2x1_Door_and_Frame_Door...
+[2020.10.18-18.50.47:415][256]LogStaticMesh: Built static mesh [0.04s] /Game/Models/2x1_Door_and_Frame_Door.2x1_Door_and_Frame_Door
+[2020.10.18-18.50.49:558][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/2x1_Door_and_Frame_Door" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/2x1_Door_and_Frame_Door.uasset" SILENT=true
+[2020.10.18-18.50.49:581][360]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/2x1_Door_and_Frame_Door42F4DFD945E35509AF7B46A3C594C27B.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Content/Models/2x1_Door_and_Frame_Door.uasset'
+[2020.10.18-18.50.49:591][360]AssetCheck: New page: Asset Save: 2x1_Door_and_Frame_Door
+[2020.10.18-18.50.49:591][360]LogContentValidation: Display: Validating StaticMesh /Game/Models/2x1_Door_and_Frame_Door.2x1_Door_and_Frame_Door
+[2020.10.18-18.50.51:265][448]LogSlate: Window '2x1_Door_and_Frame_Door' being destroyed
+[2020.10.18-18.50.51:293][448]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.10.18-18.50.51:293][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.18-18.50.55:701][664]LogActorFactory: Actor Factory created 2x1_Door_and_Frame_Door
+[2020.10.18-18.50.55:701][664]LogActorFactory: Actor Factory created 2x1_Door_and_Frame_Frame
+[2020.10.18-18.50.56:411][706]LogActorFactory: Actor Factory created 2x1_Door_and_Frame_Door
+[2020.10.18-18.50.56:429][706]LogActorFactory: Actor Factory created 2x1_Door_and_Frame_Frame
+[2020.10.18-18.57.24:599][774]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.10.18-18.57.24:650][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Autosaves/Game/Levels/Level_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.10.18-18.57.24:676][774]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Level_1_Auto1F45B7E8F44D49075174628BA4AE5DD64.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Autosaves/Game/Levels/Level_1_Auto1.umap'
+[2020.10.18-18.57.24:679][774]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level_1' took 0.095
+[2020.10.18-18.57.24:680][774]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.095
+[2020.10.18-18.57.24:682][774]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Materials/Door_Inst] ([1] browsable assets)...
+[2020.10.18-18.57.24:709][774]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Models/Materials/Door_Inst.Door_Inst]
+[2020.10.18-18.57.24:709][774]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Materials/Door_Inst]
+[2020.10.18-18.57.24:709][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/Door_Inst" FILE="D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Autosaves/Game/Models/Materials/Door_Inst_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.10.18-18.57.24:726][774]LogSavePackage: Moving 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Door_Inst_Auto1B1D50F1F4BE941FA8ECEC587BEE919AE.tmp' to 'D:/Unreal Projects/DreamEscape/DreamEscape/Saved/Autosaves/Game/Models/Materials/Door_Inst_Auto1.uasset'
+[2020.10.18-18.57.24:727][774]LogFileHelpers: Auto-saving content packages took 0.047
+[2020.10.18-19.00.16:919][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.10.18-19.00.18:489][164]Cmd: DELETE
+[2020.10.18-19.00.18:489][164]Cmd: ACTOR DELETE
+[2020.10.18-19.00.18:492][164]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.18-19.00.18:504][164]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.10.18-19.00.18:512][164]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2020.10.18-19.02.14:006][985]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2020.10.18-19.02.51:103][177]Cmd: TRANSACTION UNDO
+[2020.10.18-19.02.51:103][177]LogEditorTransaction: Undo Move Actors
+[2020.10.18-19.03.24:119][117]LogRenderer: Reallocating scene render targets to support 1532x960 Format 10 NumSamples 1 (Frame:64007).
+[2020.10.18-19.03.24:159][118]LogRenderer: Reallocating scene render targets to support 1540x960 Format 10 NumSamples 1 (Frame:64009).
+[2020.10.18-19.05.42:027][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.18-19.07.04:635][771]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.18-19.07.14:766][340]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2020.10.18-19.07.22:919][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (2x1_Door_and_Frame_Frame)
+[2020.10.18-19.07.24:618][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.18-19.08.39:112][201]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2020.10.18-19.08.39:779][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.18-19.09.49:295][364]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Quixel/Gravel_Natural/ukhhfamfw_8K_Albedo.jpg)
+[2020.10.18-19.09.51:783][364]LogTexture: Display: Building textures: ukhhfamfw_8K_Albedo (AutoDXT, 8192X8192)
+[2020.10.18-19.09.51:798][364]LogMemory: Warning: Freeing 33554432 bytes from backup pool to handle out of memory.
+[2020.10.18-19.09.51:798][364]LogMemory: Warning: MemoryStats:
+	AvailablePhysical 831307776
+	 AvailableVirtual 140724346609664
+	     UsedPhysical 1701416960
+	 PeakUsedPhysical 3423207424
+	      UsedVirtual 5728784384
+	  PeakUsedVirtual 7917973504
+[2020.10.18-19.09.51:798][364]Allocator Stats for TBB: (not implemented)
+[2020.10.18-19.09.51:799][364]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.10.18-19.09.51:800][364]LogWindows: Windows GetLastError: The operation completed successfully. (0)

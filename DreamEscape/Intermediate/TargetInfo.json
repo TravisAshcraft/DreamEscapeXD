@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "DreamEscape",
+			"Path": "D:\\Unreal Projects\\DreamEscape\\DreamEscape\\Source\\DreamEscape.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "DreamEscapeEditor",
+			"Path": "D:\\Unreal Projects\\DreamEscape\\DreamEscape\\Source\\DreamEscapeEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

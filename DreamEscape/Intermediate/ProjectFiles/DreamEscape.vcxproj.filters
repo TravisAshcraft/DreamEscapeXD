@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\DreamEscape.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{FD1D7040-B350-4BA2-8E11-06EDA239F889}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DreamEscape.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DreamEscapeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{8BFC977E-834A-4516-A652-47D4B4940150}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\DreamEscape">
+      <UniqueIdentifier>{384CFB63-6E64-4CDC-BDFE-602AEFE6B1B0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DreamEscape\DreamEscape.Build.cs">
+      <Filter>Source\DreamEscape</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\DreamEscape\DreamEscape.cpp">
+      <Filter>Source\DreamEscape</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DreamEscape\DreamEscape.h">
+      <Filter>Source\DreamEscape</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DreamEscape\DreamEscapeGameModeBase.cpp">
+      <Filter>Source\DreamEscape</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DreamEscape\DreamEscapeGameModeBase.h">
+      <Filter>Source\DreamEscape</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DreamEscape\Position_In_World.cpp">
+      <Filter>Source\DreamEscape</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DreamEscape\Position_In_World.h">
+      <Filter>Source\DreamEscape</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
